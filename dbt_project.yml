@@ -1,0 +1,9 @@
+name: 'my_dbt_test'                                                                                                                                    
+  version: '1.0.0'                                                                                                                                       
+  config-version: 2
+                                                                                                                                                         
+  model-paths: ["models"]
+
+  models:                                                                                                                                                
+    my_dbt_test:
+      +materialized: table 
